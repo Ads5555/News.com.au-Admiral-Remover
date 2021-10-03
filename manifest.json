@@ -1,0 +1,16 @@
+{
+
+  "manifest_version": 2,
+  "name": "News.com.au Admiral Remover",
+  "version": "1.0",
+
+  "description": "Removes Admiral Layer",
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.news.com.au/*"],
+      "js": ["AdmiralRemover.js"]
+    }
+  ]
+
+}
