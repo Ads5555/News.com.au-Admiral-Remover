@@ -1,6 +1,6 @@
 
 var timer = setInterval(removeElement, 100);
-var maxIncrements = 10;
+var maxIncrements = 100;
 var currentIncrement = 0;
 
 function removeElement()
